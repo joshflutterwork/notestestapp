@@ -120,7 +120,33 @@ To configure VSCode to use the FVM SDK, add the following to your workspace's `.
 
 ---
 
-## 3. Project File Structure
+## 3. App Demo
+
+### Proof of Concept
+
+The following screen recording demonstrates the full-stack Notes App running with both the frontend (Flutter) and backend (NestJS) working together:
+
+![App Demo](screen_record.gif)
+
+**What the demo shows:**
+- User registration flow
+- User login with JWT authentication
+- Creating new notes
+- Viewing the notes list
+- Updating existing notes
+- Deleting notes
+- Real-time synchronization between frontend and backend
+
+This confirms that:
+- ✅ Backend API is running on `http://localhost:3000`
+- ✅ PostgreSQL database is connected and operational
+- ✅ Flutter frontend successfully communicates with the backend
+- ✅ JWT authentication is working correctly
+- ✅ CRUD operations for notes are fully functional
+
+---
+
+## 4. Project File Structure
 
 ### Backend (`/backend/src`)
 The backend uses a modular architecture provided by NestJS:

@@ -13,10 +13,10 @@ class ApiConstants {
   }
 
   // Auth endpoints
-  static const String register = '/auth/register';
-  static const String login = '/auth/login';
+  static const String register = '/api/auth/register';
+  static const String login = '/api/auth/login';
 
   // Notes endpoints
-  static const String notes = '/notes';
-  static String noteById(String id) => '/notes/$id';
+  static const String notes = '/api/notes';
+  static String noteById(String id) => '/api/notes/$id';
 }
